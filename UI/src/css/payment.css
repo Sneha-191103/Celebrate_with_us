@@ -1,0 +1,46 @@
+.detail-text1 {
+    font-size: 28px;
+    color: #063c9a;
+    margin-top: 20px;
+    text-align: center;
+   
+  }
+  
+  .contact-input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .contact-btn {
+    width: 150px;
+    height: 40px;
+    background-color: #063c9a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .contact-btn:hover {
+    background-color: #052c7e;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contact-input {
+      width: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .contact-input {
+      width: 200px;
+    }
+  }
+  

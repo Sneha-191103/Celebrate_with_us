@@ -1,0 +1,86 @@
+.cakes {
+    /* padding: 20px; */
+    margin-left: 20px;
+    /* text-align: center; */
+}
+.cake-details{
+    line-height: 1;
+}
+.cake-box{
+    margin-top: 20px;
+}
+.cake{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    word-wrap: break-word; 
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.cake-list{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.add-cake-form {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.add-cake-form h2 {
+    margin-bottom: 10px;
+}
+
+.add-cake-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-cake-form input {
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.add-cake-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-cake-form button:hover {
+    background-color: #0056b3;
+}
+
+.cake {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+}
+
+.cake img {
+    margin-top: 10px;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .cake-details p {
+    color: #666;
+  }
+  

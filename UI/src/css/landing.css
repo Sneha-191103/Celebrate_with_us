@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+body{
+  margin:0;
+  font-family: "Quattrocento", serif;
+}
+h1{
+  font-family: "Mountains of Christmas", serif;
+}
+.login-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    z-index: 9999;
+}
+.nav{
+    /* background-color: white; */
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    /* box-shadow: 10px 10px 5px rgb(215, 215, 216); */
+    /* background-color: white; */
+}
+/* .landingpage{
+    width: 1500px;
+} */
+.img-cont-land{
+    display: flex;
+    flex-direction: row;
+    
+}
+.font-land{
+    font-family: "Mountains of Christmas", serif;
+    text-align: center;
+}
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  .title-word-5 {
+    --color-1: #d663da;
+    --color-2: #c1df53;
+    --color-3: #c7a8e4;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+.title {
+    font-weight: 1000;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+.img-cont-land {
+    position: relative;
+    height: 400px; 
+    overflow: hidden;
+    z-index: -999;
+  }
+  
+.img1-landing,
+.img2-landing {
+    position: relative;
+    width: 50%; 
+    height: 100%;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  .img1-landing {
+    left: -50%;
+    animation-name: slideFromLeft;
+  }
+  
+  .img2-landing {
+    right: -50%;
+    animation-name: slideFromRight;
+  }
+  
+  @keyframes slideFromLeft {
+    0% {
+      left: -10%;
+    }
+    100% {
+      left: 50%;
+    }
+  }
+  
+  @keyframes slideFromRight {
+    0% {
+      right: -10%;
+    }
+    100% {
+      right: 50%;
+    }
+  }
+  .landingpage{
+    padding-top: 80px;
+  }
+.topic-land,.land-steps{
+  font-family: "Quattrocento", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.land-steps{
+  background-color: rgba(233, 244, 176, 0.293);
+}
+.topic-img{
+  font-family: "Quattrocento", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:5%;
+  padding:20px 20px;
+
+}
+.topic{
+  font-family: "Mountains of Christmas", serif;
+  font-size: 40px;
+  color: #eb1414;
+  font-weight: 900;
+}
+.step-img{
+  border-radius: 100px;
+}
+.step-text{
+ 
+  font-size: 17px;
+  color: #293f33;
+  font-weight: 800;
+}
+.para-land{
+  font-size: 20px;
+  padding: 30px 100px;
+  text-align: center;
+}
+.about-cont{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffdaf6b5;
+}
+.about-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+.p-10{
+  font-size: 17px;
+  padding: 50px 50px;
+}

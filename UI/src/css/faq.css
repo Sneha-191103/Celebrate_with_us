@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+.faq-page {
+    background-color: #f7f7f7;
+    padding: 50px 0 0 0;
+}
+.plus-icon {
+    margin-right: 10px; 
+    transition: transform 0.3s ease; 
+}
+
+.faqpag {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(122, 122, 122, 0.068);
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.faqpag h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Mountains of Christmas", serif;
+    font-size: 40px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0;
+}
+
+.question {
+    color:rgb(234, 141, 157);
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.answer {
+    color: #050505;
+}
+
+.answer-toggle {
+    background-color: #040404;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.answer-toggle:hover {
+    background-color: #a63737;
+}
+
+.faq-item {
+    box-shadow: 2px 2px 2px 2px rgba(220, 218, 218, 0.112);
+}
+
+.nav{
+    background-color: white;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    /* box-shadow: 10px 10px 5px rgb(215, 215, 216); */
+    /* background-color: white; */
+  }

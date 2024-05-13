@@ -1,0 +1,115 @@
+/* You can either include this CSS in your existing Tailwind CSS file or use it separately */
+
+/* Styles for the container */
+.container-fluid {
+    padding: 0;
+  }
+  
+  /* Styles for the card */
+  .card {
+    border-color: #343a40; /* Dark border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Styles for the card body */
+  .card-body {
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Styles for the card title */
+  .card-title {
+    font-weight: bold;
+  }
+  
+  /* Styles for the paragraphs */
+  .card-text,
+  .card-text p {
+    color: #343a40; /* Dark text color */
+    padding: 0 10px; /* Add some padding */
+  }
+  
+  /* Additional styles for headings and paragraphs */
+  .text-xl {
+    font-size: 1.25rem; /* Adjust font size for extra-large text */
+  }
+  
+  .font-semibold {
+    font-weight: 600; /* Semi-bold font weight */
+  }
+  
+  /* Styles for the accept and decline buttons */
+  .bg-green-500 {
+    background-color: #28a745; 
+    color: white;
+    
+  }
+  
+  .bg-green-500:hover {
+    background-color: #42d061;
+     
+  }
+  
+  .bg-red-500 {
+    background-color: #e94949; 
+    color: white;
+  }
+  
+  .bg-red-500:hover {
+    background-color: #c82333; 
+  }
+  
+  /* Common button styles */
+  .p-2 {
+    padding: 0.5rem; /* Add padding */
+  }
+  
+  .rounded {
+    border-radius: 0.25rem; /* Rounded corners */
+  }
+  
+  .w-36 {
+    width: 9rem; /* Set fixed width */
+  }
+  
+  /* Styles for the button text */
+  .button-text {
+    color: white; /* White text color */
+  }
+  .mt-8{
+    display: flex;
+    justify-content: center;
+    
+  }
+  /* privacy.css */
+.privacy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .privacy-title {
+   
+    margin-bottom: 20px;
+  }
+  
+  .privacy-content {
+    margin-top: 20px;
+  }
+  
+  .privacy-section {
+    margin-bottom: 30px;
+  }
+  
+  .privacy-section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  

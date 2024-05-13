@@ -1,0 +1,109 @@
+.apptheme {
+  padding: 20px;
+  margin-left: 20px;
+  }
+   
+  .theme-list {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40px;
+  }
+  
+  .theme {
+    background-color: #f4f4f4;
+    /* padding: 10px; */
+    /* margin-bottom: 10px; */
+   
+  }
+  
+  .theme h3 {
+    margin-top: 0;
+  }
+  
+  .add-theme-form {
+   
+    background-color: #9ab9c1;
+    border-radius: 40px;
+    width: 500px;
+    padding: 60px 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .add-theme-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .add-theme-form button {
+    padding: 8px 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-theme-form button:hover {
+    background-color: #090909;
+  }
+  
+  .add-theme-form h1 {
+    margin-top: 0;
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  .theme-box{
+    position: fixed;
+    top: 20%;
+    left:30%;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cross-theme{
+    /* position: fixed; */
+    top: 28%;
+    left:61%;
+    font-size: 30px;
+    /* padding: 0 8px; */
+  }
+  .thme-box{
+    margin-top: 20px;
+  }
+  .theme-details{
+    font-size: 15px;
+    text-align: center;
+  }
+  .theme-image img{
+    border-radius: 9px;
+  }
+  .menu-items-card.active {
+    background-color: lightgreen;
+  }
+  .menu-items-card .selected-theme {
+    background-color: lightgreen;
+    color:red;
+  }
+  
+  .cross-theme {
+    position: absolute;
+    top: 30px;
+    right: -70px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000;
+    /* padding: 0.5rem; */
+  }
+  
+  
